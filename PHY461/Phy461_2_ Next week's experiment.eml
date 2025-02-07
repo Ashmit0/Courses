@@ -1,0 +1,55 @@
+Return-Path: <kpraj@iitk.ac.in>
+X-Original-To: phy461@iitk.ac.in
+Delivered-To: ashmitb21@iitk.ac.in
+Received: by newmailhost.cc.iitk.ac.in (Postfix)
+	id BC0091A000207; Sat, 18 Jan 2025 14:09:40 +0530 (IST)
+Delivered-To: phy461@iitk.ac.in
+Received: from mail6.iitk.ac.in (mail6.iitk.ac.in [172.31.1.46])
+	by newmailhost.cc.iitk.ac.in (Postfix) with ESMTPS id BA8551A000206;
+	Sat, 18 Jan 2025 14:09:40 +0530 (IST)
+Received: from webmail.iitk.ac.in (webmail.iitk.ac.in [172.31.1.213])
+	by mail6.iitk.ac.in (Postfix) with ESMTP id A60713075D;
+	Sat, 18 Jan 2025 14:09:40 +0530 (IST)
+DKIM-Filter: OpenDKIM Filter v2.11.0 mail6.iitk.ac.in A60713075D
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=iitk.ac.in; s=ss-ons;
+	t=1737189580; bh=1zLPrcitB8MioTR6eqd6bOgodxAswN8kIcCYaCTyVZA=;
+	h=Date:Subject:From:To:Cc:Reply-To:From:To:Cc:Reply-To:Date:
+	 Subject;
+	b=WgennZUOK08EQ2sOabvlssr8Ns+lPmdUQ+jZYp89TeQzJkPrLjh8U4TqKHDI4vT+e
+	 5hjAHb1NCRJhnkVM2Vqz4iMDixccCJKUDbV6tATrJCoCUX2txxjc5fBGH5erOINMXW
+	 Col+9dqIXyd4wKpLU0j740LrOwgRqitr0UBX0WXqm+O/VjZ6lMVX6z0uxGBOsFCzTq
+	 DTF3fQDZYiUhWH+s4cQJ1ZgB8wCytVIsJXotHKN1KppdmtDemcUeUAKoFWyMJhWxeF
+	 7VXjNWsSKR+cL3vOM0ZJzcwr8pjwNPDRdedtZYs0usb3T2SCU+8ZZQ6SXs65t/tlXD
+	 xNs6pWFxJ3RPA==
+Received: from webmail.iitk.ac.in (localhost [127.0.0.1])
+	by webmail.iitk.ac.in (Postfix) with ESMTP id 8AD394BE90;
+	Sat, 18 Jan 2025 14:09:40 +0530 (IST)
+Received: from 172.25.94.23
+        by webmail.iitk.ac.in with HTTP;
+        Sat, 18 Jan 2025 14:09:40 +0530
+Message-ID: <0bcb008f0cc51e55c99cdbd051aed71c.squirrel@webmail.iitk.ac.in>
+Date: Sat, 18 Jan 2025 14:09:40 +0530
+Subject: Phy461/2: Next week's experiment
+From: "K P Rajeev" <kpraj@iitk.ac.in>
+To: phy461@iitk.ac.in,
+ phy462@iitk.ac.in
+Cc: "Ravi Shankar Sharma" <rssharma@iitk.ac.in>
+Reply-To: kpraj@iitk.ac.in
+User-Agent: SquirrelMail/1.4.22-16.el7
+MIME-Version: 1.0
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+
+Dear Students,
+    Follow the link below to see your experiment for next week.
+
+https://drive.google.com/drive/folders/0BxUoRAjCF2CvRWhuOFZsck82c2M?resourcekey=0-Y1fYNUsP0XgbcMTGCN8Pig&usp=sharing
+
+Regards
+
+K P Rajeev
+IICh: Phy461/2
+
+
