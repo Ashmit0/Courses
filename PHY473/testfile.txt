@@ -1,0 +1,15 @@
+try "i" for insert ! 
+nice. ! 
+hehe
+vim basics: 
+
+"i" insert mode 
+:set number 
+"dd" delates line 
+3dd deleats 3 lines 
+U for undo 
+ctr R for redo actions 
+in cmd mode type "/serachstring" to search ! 
+%s/textinfile/texttoreplacewith/g(c)
+
+vim is nice ! 

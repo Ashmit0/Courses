@@ -1,0 +1,124 @@
+\documentclass[12 pt]{article}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\setstretch{1.15}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{prettyref}
+\newrefformat{eq}{Eq.~\ref{#1}}
+\newrefformat{fig}{Fig.~\ref{#1}}
+\usepackage[height = 23 cm , width = 16 cm ]{geometry}
+\usepackage{doi}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+citecolor=blue,
+urlcolor=blue,
+linkcolor=blue
+}
+\usepackage[symbol]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{newclude}
+\urlstyle{same}
+\usepackage{rsfso}
+\usepackage{natbib}
+\usepackage{wrapfig}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{minted}
+\usepackage{sectsty}
+\allsectionsfont{\usefont{OT1}{pnc}{c}{n}\selectfont}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[rf]{\thepage}
+\renewcommand\headrulewidth{0pt}
+\renewcommand\footrulewidth{0.8pt}%
+\lhead{}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\usepackage{sectsty}
+\usepackage{blindtext}
+\usepackage{etoolbox}
+
+
+
+
+\newcommand{\printthis}[2][true]{%
+\ifbool{#1}{%
+#2%
+}{%
+% Drop it!!!!!
+}%
+}% End of \printthis
+%
+\begin{document}
+
+
+% \parindent 0 pt 
+
+\thispagestyle{empty}
+\vspace*{.5 cm}
+
+\begin{center} 
+\Large \textbf{\underline{Assignment 1: Bash Scripting}}
+\\
+
+\vspace{ 0.7 cm }
+\normalsize \textit{Ashmit Bathla, 210216}\\
+% \topskip0pt
+\end{center}
+% \vspace{ 0.5 cm }
+% \vspace{2 cm}
+\begingroup 
+\begin{center}
+     \textbf{PHY473A Computational Physics,}
+    \textbf{\today}
+\end{center}
+\vspace{1cm}
+\parindent 0pt
+
+\endgroup
+
+
+\section*{\sffamily Question 1}
+
+\lstinputlisting[language=bash]{creatdir.sh}
+
+\section*{\sffamily Question 2}
+
+% \bibliographystyle{plain}
+% \bibliography{b}
+\end{document}
